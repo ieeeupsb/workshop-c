@@ -3,7 +3,8 @@
 int main()
 {
     int num, sum = 0;
-    scanf("Number? %d", &num);
+    printf("Number? ");
+    scanf("%d", &num);
 
     // I don't know how many iterations are needed, so I use a while loop
     while(num > 0)
