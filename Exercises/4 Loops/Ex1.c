@@ -3,7 +3,7 @@
 int main()
 {
     int num, sum = 0;
-    printf("Insert a number ? ");
+    printf("Number ? ");
     scanf("%d", &num);
 
     // I don't know how many iteratios are needed, so I use a while loop
