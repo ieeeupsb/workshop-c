@@ -3,5 +3,7 @@ let slideshow = remark.create({
 
 	/* highlight */
 	highlightLanguage: 'c',
-	highlightStyle: 'zenburn'
+	highlightStyle: 'zenburn',
+	highlightLines: 'true',
+	highlightSpans: 'false',
 });
